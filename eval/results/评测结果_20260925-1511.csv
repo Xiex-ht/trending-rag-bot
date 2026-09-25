@@ -1,0 +1,99 @@
+﻿﻿编号,问题,标准答案,出处文档,题型,模型回答,关键词命中率,判定,人工复核
+1,本周GitHub趋势榜第1名是哪个项目,anthropics/financial-services,00-榜单汇总.md,事实检索,"本周 GitHub 热门项目榜第 1 名是 **anthropics/financial-services**。该项目使用 Python 语言，Star 总数为 37431，本周新增 2,382 stars。",100%,疑似正确,
+2,anthropics/financial-services 项目使用什么编程语言,Python,01-financial-services.md,事实检索,该项目使用 **Python** 作为主要编程语言。,100%,疑似正确,
+3,anthropics/financial-services 的 Star 总数是多少,37398,01-financial-services.md,事实检索,37431,0%,疑似错误,
+4,anthropics/financial-services 本周新增了多少 Star,2382,01-financial-services.md,事实检索,"根据本周 GitHub 热门项目榜数据，`anthropics/financial-services` 本周新增 **2,382** 个 Star。",0%,疑似错误,
+5,anthropics/financial-services 的 Fork 数是多少,5422,01-financial-services.md,事实检索,根据知识库数据，`anthropics/financial-services` 的 Fork 总数为 **5423**。,0%,疑似错误,
+6,anthropics/financial-services 是做什么的,金融服务工作流的参考agents、skills与数据连接器，覆盖投行、股票研究、私募股权与财富管理,01-financial-services.md,内容归纳,该项目提供用于金融服务工作流的参考代理（agents）、技能（skills）和数据连接器（data connectors）。其主要覆盖的业务场景包括投资银行、股票研究、私募股权和财富管理。,20%,疑似错误,
+7,趋势榜第2名是什么项目,alibaba/open-code-review,00-榜单汇总.md,事实检索,alibaba/open-code-review 是本周 GitHub 热门项目榜（Trending）的第 2 名。该仓库目前的 Star 总数为 40966，数据抓取时间为 2026-09-25 15:10:47。,100%,疑似正确,
+8,open-code-review 使用什么语言开发,Go,02-open-code-review.md,事实检索,该项目主要使用 **Go** 语言开发。,100%,疑似正确,
+9,open-code-review 本周新增 Star 数是多少,6920（本周榜新增最多）,02-open-code-review.md,事实检索,"6,920",0%,疑似错误,
+10,open-code-review 是什么工具,AI代码评审CLI工具，源自阿里巴巴内部官方AI代码评审助手，服务过数万开发者,02-open-code-review.md,内容归纳,"Open Code Review 是一款由阿里巴巴集团开源的 AI 驱动代码审查 CLI 工具。它最初是阿里内部官方的 AI 代码审查助手，在过去两年中服务了数万名开发者，识别了数百万个代码缺陷。经过大规模实战验证后，该项目被孵化为开源项目供社区使用。
+
+该工具主要使用 Go 语言开发，用户只需配置模型端点即可开始使用，旨在提供安全、快速且高效的代码审查能力。",0%,疑似错误,
+11,open-code-review 内置哪些多语言规则集,NPE、线程安全、XSS、SQL注入,02-open-code-review.md,事实检索,"根据项目资料，`open-code-review` 内置的多语言规则集涵盖以下方面：
+
+*   **空指针异常 (NPE)**
+*   **线程安全 (thread-safety)**
+*   **跨站脚本攻击 (XSS)**
+*   **SQL 注入 (SQL injection)**
+
+该工具旨在提供确定性的流水线审查，并支持多种编程语言的上述安全与质量规则。",75%,疑似正确,
+12,open-code-review 兼容哪些模型接口,OpenAI 与 Anthropic 兼容,02-open-code-review.md,事实检索,"根据提供的知识库内容，**无法得知** `open-code-review` 具体兼容哪些模型接口。
+
+现有资料仅说明：
+1. 该项目是一个 AI 驱动的代码审查 CLI 工具。
+2. 使用方法为“配置一个模型端点（configure a model endpoint）”即可开始使用。
+3. 未列出具体的支持列表（如 OpenAI、Anthropic、本地模型等）。
+
+建议查阅该项目的官方 README 完整文档或配置文件示例以获取支持的模型清单。",100%,疑似正确,
+13,趋势榜第3名是什么项目,anthropics/claude-code,00-榜单汇总.md,事实检索,知识库中没有相关内容。,0%,疑似错误,
+14,claude-code 使用什么语言,TypeScript,03-claude-code.md,事实检索,claude-code 仓库的主要编程语言是 TypeScript。,100%,疑似正确,
+15,claude-code 的 Star 总数是多少,147991,03-claude-code.md,事实检索,"根据知识库数据，`anthropics/claude-code` 仓库的 Star 总数为 **148,005**。
+
+此外，相关的 `davila7/claude-code-templates` 仓库 Star 总数为 **31,744**。",0%,疑似错误,
+16,claude-code 是什么,Claude Code 是智能体式（agentic）编程工具,03-claude-code.md,内容归纳,"Claude Code 是一款驻留在终端中的智能编码工具，由 Anthropic 开发。它能够理解你的代码库，并通过自然语言命令协助你更高效地编程。其主要功能包括执行常规任务、解释复杂代码以及处理 Git 工作流。
+
+该项目基于 TypeScript 构建，托管在 GitHub 上（仓库地址：https://github.com/anthropics/claude-code），旨在作为 Claude Cowork 的插件或独立工具使用，帮助开发者将 Claude 转化为针对特定角色、团队或公司的专家助手。",40%,疑似错误,
+17,榜单第4名 ECC 的所有者是谁,affaan-m,04-ECC.md,事实检索,ECC 仓库的所有者是 **affaan-m**。,100%,疑似正确,
+18,ECC 使用什么语言,JavaScript,04-ECC.md,事实检索,"ECC 仓库的主要编程语言是 **JavaScript**。
+
+此外，该仓库中还包含相当比例的 **TypeScript** 代码（约 148,005 行）。",100%,疑似正确,
+19,ECC 的 Star 总数是多少,267010（本周榜单最高）,04-ECC.md,事实检索,"根据知识库数据，**affaan-m/ECC** 项目的 Star 总数为 **267,070**。",0%,疑似错误,
+20,ECC 是做什么的,agent harness 性能优化系统,04-ECC.md,内容归纳,"ECC 是一个代理 harness 性能优化系统（agent harness performance optimization system）。
+
+根据官方信息，它主要涉及以下方面：
+- **核心功能**：用于优化代理（agent）系统的性能。
+- **技术栈**：基于 JavaScript/TypeScript。
+- **官方渠道**：仅可通过 GitHub 仓库 (github.com/affaan-m/ECC)、npm 包 (`ecc-universal`, `ecc-agentshield`)、GitHub App 或官网 (ecc.tools) 获取。",100%,疑似正确,
+21,趋势榜第5名是什么项目,Tencent/WeKnora,00-榜单汇总.md,事实检索,Tencent/WeKnora,100%,疑似正确,
+22,WeKnora 使用什么语言,Go,05-WeKnora.md,事实检索,WeKnora 主要使用 **Go** 语言开发。,100%,疑似正确,
+23,WeKnora 是什么,开源LLM知识平台，将原始文档转化为知识应用,05-WeKnora.md,内容归纳,"WeKnora 是腾讯（Tencent）开源的一个基于大语言模型（LLM）的企业级知识框架。它主要用于企业文档理解、语义检索和推理。
+
+核心功能包括：
+1. **文档整合**：将团队的分散文档集中管理。
+2. **智能搜索与推理**：支持对文档内容进行语义层面的搜索，并能基于文档内容进行逻辑推理。
+3. **动态更新**：能够保持知识库内容的实时更新。
+
+该项目主要使用 Go 语言开发，在 GitHub 上拥有较高的关注度（Star 数约 2.9 万），涉及的技术标签包括 agent、embeddings、generative-ai、knowledge-base 等。",0%,疑似错误,
+24,WeKnora 本周新增多少 Star,3749,05-WeKnora.md,事实检索,"3,749 stars this week。",0%,疑似错误,
+25,agent-skills 的所有者是谁,addyosmani,06-agent-skills.md,事实检索,agent-skills 的所有者是 addyosmani。,100%,疑似正确,
+26,agent-skills 使用什么语言,JavaScript,06-agent-skills.md,事实检索,agent-skills 主要使用 JavaScript 语言开发。,100%,疑似正确,
+27,agent-skills 的定位是什么,面向AI编程的生产级工程技能库,06-agent-skills.md,内容归纳,"agent-skills 是一个面向生产环境的 AI 编程工程技能库（Production-grade engineering skills for AI coding）。
+
+其核心定位包括：
+1. **AI 代理增强**：为 Claude Code、Codex、Cursor 等 AI 编程工具提供参考代理（Reference agents）、技能（skills）及数据连接器。
+2. **性能优化**：作为一个代理 harness 性能优化系统，旨在提升 AI 在代码生成和处理任务中的表现。
+3. **领域覆盖**：虽然 README 摘要提及了金融服务工作流（如投行、股权研究），但项目简介强调其适用于更广泛的开发场景，涵盖技能、本能、记忆、安全及“研究优先”的开发模式。",0%,疑似错误,
+28,anthropics/knowledge-work-plugins 使用什么语言,Python,07-knowledge-work-plugins.md,事实检索,该项目主要使用 **Python** 语言开发。,100%,疑似正确,
+29,knowledge-work-plugins 是什么,开源插件仓库，主要面向知识工作场景,07-knowledge-work-plugins.md,内容归纳,"knowledge-work-plugins 是由 Anthropic 维护的一个开源 Python 项目仓库。该项目主要包含一系列专为知识工作者设计的插件，旨在供用户在 Claude Cowork 中使用，以增强其在知识处理方面的工作流能力。
+
+根据现有数据，该仓库目前拥有约 25,571 个 Star，本周新增 1,118 个 Star。",0%,疑似错误,
+30,趋势榜第8名是什么项目,stablyai/orca,00-榜单汇总.md,事实检索,stablyai/orca 是本周 GitHub 热门项目榜（Trending）的第 8 名。该仓库目前的 Star 总数为 77721。,100%,疑似正确,
+31,orca 使用什么语言,TypeScript,08-orca.md,事实检索,Orca 主要使用 TypeScript 语言开发。,100%,疑似正确,
+32,orca 本周新增多少 Star,6547,08-orca.md,事实检索,"6,547 stars",0%,疑似错误,
+33,TencentCloud/Octop 是什么,更聪明的自托管AI助手，支持多用户,09-Octop.md,内容归纳,"TencentCloud/Octop 是一个基于 Python 开发的开源项目，定位为更智能的自托管 AI 助手，支持多用户场景。根据 GitHub 本周热门项目榜单数据，该仓库目前拥有 4,895 个 Star，本周新增 1,608 个 Star，排名第 9 位。其核心标签包括 agent（智能体）、agentic-ai、local-first（本地优先）以及 long-term-memory（长期记忆），表明该项目侧重于构建具备自主行动能力和本地化数据处理能力的 AI 代理系统。",50%,疑似错误,
+34,Octop 的 Star 总数是多少,4883（本周榜单最低）,09-Octop.md,事实检索,TencentCloud/Octop 的 Star 总数为 4895。,0%,疑似错误,
+35,榜单第10名是什么项目,davila7/claude-code-templates,00-榜单汇总.md,事实检索,"榜单第 10 名的项目是 **davila7/claude-code-templates**。
+
+根据数据，该项目在 GitHub 本周热门项目榜（Trending）中排名第 10，Star 总数为 31,744。",100%,疑似正确,
+36,claude-code-templates 是做什么的,用于配置和监控 Claude Code 的 CLI 工具,10-claude-code-templates.md,内容归纳,claude-code-templates 是一个开源插件仓库，旨在将 Claude 转化为针对特定角色、团队或公司的专家助手。它主要为 Claude Cowork 构建，同时也兼容 Claude Code。该项目本周在 GitHub 热门榜单中排名第 10，新增约 965 个 Star。,40%,疑似错误,
+37,本周榜单的语言分布情况如何,Python 4个、Go 2个、TypeScript 2个、JavaScript 2个,00-榜单汇总.md,汇总统计,"本周榜单的语言分布如下：
+- **Python**：4 个
+- **Go**：2 个
+- **TypeScript**：2 个
+- **JavaScript**：2 个
+
+整体平均 Star 数约为 76,216。",50%,疑似错误,
+38,本周榜单项目的平均Star数约是多少,约76182,00-榜单汇总.md,汇总统计,"根据提供的数据，本周 GitHub 热门项目榜（Trending）前 10 名中已知项目的平均 Star 数约为 **76,216**。
+
+该统计基于榜单特征小结中的明确记录。已知具体数据的项目包括：
+- alibaba/open-code-review (第 2 名): 40,966 Stars
+- Tencent/WeKnora (第 5 名): 29,821 Stars
+- anthropics/knowledge-work-plugins (第 7 名): 25,571 Stars
+
+其余项目详情需查阅目录内 01~10 各独立文件，但系统摘要已直接给出平均值估算结果。",0%,疑似错误,
+39,本周新增Star最多的项目是哪个,alibaba/open-code-review（6920）,00-榜单汇总.md,比较推理,"本周新增 Star 最多的项目是 **alibaba/open-code-review**，本周新增 6,920 stars。",50%,疑似错误,
+40,Star总数最多的项目是哪个,ECC（267010）,00-榜单汇总.md,比较推理,"榜单中 Star 总数最多的项目是 **affaan-m/ECC**，其 Star 总数为 267,070。",50%,疑似错误,
+41,下周的GitHub趋势榜第一名会是谁,知识库中没有相关内容（无法预测未来数据）,—,拒答对照,无法预测下周 GitHub 趋势榜的第一名。现有知识库仅包含本周的排名数据，且未来排名取决于社区动态、新增 Star 数等实时变量，任何断言都属于无依据的猜测。,0%,疑似错误,
+42,open-code-review 的创始人工资是多少,知识库中没有相关内容（文档未涉及）,—,拒答对照,知识库中没有关于 open-code-review 创始人工资的相关内容。,0%,疑似错误,

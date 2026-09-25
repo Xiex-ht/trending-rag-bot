@@ -1,0 +1,7 @@
+# 密钥与本地配置，绝不入库
+config_dify_kb.json
+.env
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db

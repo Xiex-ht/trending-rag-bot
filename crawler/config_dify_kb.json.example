@@ -1,0 +1,7 @@
+{
+  "base_url": "http://localhost/v1",
+  "dataset_api_key": "dataset-你的Dify知识库API密钥",
+  "dataset_id": "你的知识库ID（知识库页面地址栏 /datasets/ 后那串）",
+  "docs_dir": "本地榜单Markdown目录的绝对路径",
+  "_说明": "复制本文件为 config_dify_kb.json 并填入真实值；该文件已被 .gitignore 排除，切勿提交"
+}

@@ -1,0 +1,43 @@
+﻿编号,问题,标准答案,出处文档,题型
+1,本周GitHub趋势榜第1名是哪个项目,anthropics/financial-services,00-榜单汇总.md,事实检索
+2,anthropics/financial-services 项目使用什么编程语言,Python,01-financial-services.md,事实检索
+3,anthropics/financial-services 的 Star 总数是多少,37398,01-financial-services.md,事实检索
+4,anthropics/financial-services 本周新增了多少 Star,2382,01-financial-services.md,事实检索
+5,anthropics/financial-services 的 Fork 数是多少,5422,01-financial-services.md,事实检索
+6,anthropics/financial-services 是做什么的,金融服务工作流的参考agents、skills与数据连接器，覆盖投行、股票研究、私募股权与财富管理,01-financial-services.md,内容归纳
+7,趋势榜第2名是什么项目,alibaba/open-code-review,00-榜单汇总.md,事实检索
+8,open-code-review 使用什么语言开发,Go,02-open-code-review.md,事实检索
+9,open-code-review 本周新增 Star 数是多少,6920（本周榜新增最多）,02-open-code-review.md,事实检索
+10,open-code-review 是什么工具,AI代码评审CLI工具，源自阿里巴巴内部官方AI代码评审助手，服务过数万开发者,02-open-code-review.md,内容归纳
+11,open-code-review 内置哪些多语言规则集,NPE、线程安全、XSS、SQL注入,02-open-code-review.md,事实检索
+12,open-code-review 兼容哪些模型接口,OpenAI 与 Anthropic 兼容,02-open-code-review.md,事实检索
+13,趋势榜第3名是什么项目,anthropics/claude-code,00-榜单汇总.md,事实检索
+14,claude-code 使用什么语言,TypeScript,03-claude-code.md,事实检索
+15,claude-code 的 Star 总数是多少,147991,03-claude-code.md,事实检索
+16,claude-code 是什么,Claude Code 是智能体式（agentic）编程工具,03-claude-code.md,内容归纳
+17,榜单第4名 ECC 的所有者是谁,affaan-m,04-ECC.md,事实检索
+18,ECC 使用什么语言,JavaScript,04-ECC.md,事实检索
+19,ECC 的 Star 总数是多少,267010（本周榜单最高）,04-ECC.md,事实检索
+20,ECC 是做什么的,agent harness 性能优化系统,04-ECC.md,内容归纳
+21,趋势榜第5名是什么项目,Tencent/WeKnora,00-榜单汇总.md,事实检索
+22,WeKnora 使用什么语言,Go,05-WeKnora.md,事实检索
+23,WeKnora 是什么,开源LLM知识平台，将原始文档转化为知识应用,05-WeKnora.md,内容归纳
+24,WeKnora 本周新增多少 Star,3749,05-WeKnora.md,事实检索
+25,agent-skills 的所有者是谁,addyosmani,06-agent-skills.md,事实检索
+26,agent-skills 使用什么语言,JavaScript,06-agent-skills.md,事实检索
+27,agent-skills 的定位是什么,面向AI编程的生产级工程技能库,06-agent-skills.md,内容归纳
+28,anthropics/knowledge-work-plugins 使用什么语言,Python,07-knowledge-work-plugins.md,事实检索
+29,knowledge-work-plugins 是什么,开源插件仓库，主要面向知识工作场景,07-knowledge-work-plugins.md,内容归纳
+30,趋势榜第8名是什么项目,stablyai/orca,00-榜单汇总.md,事实检索
+31,orca 使用什么语言,TypeScript,08-orca.md,事实检索
+32,orca 本周新增多少 Star,6547,08-orca.md,事实检索
+33,TencentCloud/Octop 是什么,更聪明的自托管AI助手，支持多用户,09-Octop.md,内容归纳
+34,Octop 的 Star 总数是多少,4883（本周榜单最低）,09-Octop.md,事实检索
+35,榜单第10名是什么项目,davila7/claude-code-templates,00-榜单汇总.md,事实检索
+36,claude-code-templates 是做什么的,用于配置和监控 Claude Code 的 CLI 工具,10-claude-code-templates.md,内容归纳
+37,本周榜单的语言分布情况如何,Python 4个、Go 2个、TypeScript 2个、JavaScript 2个,00-榜单汇总.md,汇总统计
+38,本周榜单项目的平均Star数约是多少,约76182,00-榜单汇总.md,汇总统计
+39,本周新增Star最多的项目是哪个,alibaba/open-code-review（6920）,00-榜单汇总.md,比较推理
+40,Star总数最多的项目是哪个,ECC（267010）,00-榜单汇总.md,比较推理
+41,下周的GitHub趋势榜第一名会是谁,知识库中没有相关内容（无法预测未来数据）,—,拒答对照
+42,open-code-review 的创始人工资是多少,知识库中没有相关内容（文档未涉及）,—,拒答对照
